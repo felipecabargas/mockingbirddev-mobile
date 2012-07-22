@@ -5,6 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1"> 
   <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
+  <link rel="stylesheet" href="homepage.css">
+  <link rel="apple-touch-icon" href="images/icon.png"/>
   <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
   <script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
 </head> 
@@ -13,23 +15,35 @@
 <div data-role="page">
 
   <div data-role="header" data-theme="b">
-    <h1>Mockingbird Dev</h1>
+    <div id="Logo"><img src="images/title.png"></div>
   </div>
 
   <div data-role="content"> 
-    <div>
-      <img src="images/headbird.png">
-    </div>
+    <ul data-role="listview" data-inset="true">
+      <li><a href="team.html">
+        <h3>Equipo</h3>
+        <p>Conoce a la Liga de la Justicia</p>
+      </a></li>
+      <li><a href="services.html">
+        <h3>Servicios</h3>
+        <p>Más que código y diseño...</p>
+      </a></li>
+      <li><a href="customers.html">
+        <h3>Clientes</h3>
+        <p>Échale un vistazo a lo que hemos hecho antes</p>
+      </a></li>
+      <li><a href="contact.html">
+        <h3>Contacto</h3>
+        <p>Hora de hacer negocios? Este es el lugar</p>
+      </a></li>
+    </ul>
   </div>
   
   <div data-role="footer" data-position="fixed">
     <div data-role="navbar">
       <ul>
-        <li><a data-icon="home" data-iconpos="top" href="#">Inicio</a></li>
-        <li><a data-icon="gear" data-iconpos="top" href="#">Equipo</a></li>
+        <li><a data-icon="home" data-iconpos="top" href="index.html">Inicio</a></li>
         <li><a data-icon="info" data-iconpos="top" href="services.html">Servicios</a></li>
-        <li><a data-icon="grid" data-iconpos="top" href="#">Clientes</a></li>
-        <li><a data-icon="arrow-r" data-iconpos="top" href="#">Contacto</a></li>
       </ul>
     </div>
   </div>
