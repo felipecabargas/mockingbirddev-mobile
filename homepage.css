@@ -6,3 +6,15 @@
 .ui-header{
   background-image: url("images/banner.png");
 }
+
+.founders{
+  height: 80px;
+}
+
+.founder {
+  padding: 10px;
+}
+
+.client{
+  text-align: center;
+}
